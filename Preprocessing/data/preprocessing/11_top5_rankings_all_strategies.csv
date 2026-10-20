@@ -1,0 +1,201 @@
+﻿query_id,query,strategy,method,rank,doc_id,source_site,score
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,bm25,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,31.714623
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,bm25,2,web_7b834eb290850b150d8c,mobifone_5g_faq,30.703008
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,bm25,3,web_15efaa166448e4ce2a02,mobifone_5g_faq,27.995312
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,bm25,4,web_36aa797ea6489796b976,mobifone_5g_faq,26.983029
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,bm25,5,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,18.871914
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,tfidf,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,0.668622
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,tfidf,2,web_7b834eb290850b150d8c,mobifone_5g_faq,0.627565
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,tfidf,3,web_36aa797ea6489796b976,mobifone_5g_faq,0.455846
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,tfidf,4,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,0.418788
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,baseline,tfidf,5,web_00836287d6ee815d027e,mobifone_5g_faq,0.392344
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,bm25,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,31.620974
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,bm25,2,web_7b834eb290850b150d8c,mobifone_5g_faq,30.969568
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,bm25,3,web_15efaa166448e4ce2a02,mobifone_5g_faq,27.378691
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,bm25,4,web_36aa797ea6489796b976,mobifone_5g_faq,23.773245
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,bm25,5,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,18.700529
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,tfidf,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,0.719695
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,tfidf,2,web_7b834eb290850b150d8c,mobifone_5g_faq,0.670938
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,tfidf,3,web_36aa797ea6489796b976,mobifone_5g_faq,0.469398
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,tfidf,4,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,0.44717
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,lemmatized,tfidf,5,web_00836287d6ee815d027e,mobifone_5g_faq,0.417171
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,bm25,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,31.620974
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,bm25,2,web_7b834eb290850b150d8c,mobifone_5g_faq,30.969568
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,bm25,3,web_15efaa166448e4ce2a02,mobifone_5g_faq,27.378691
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,bm25,4,web_36aa797ea6489796b976,mobifone_5g_faq,23.773245
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,bm25,5,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,18.700529
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,tfidf,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,0.719695
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,tfidf,2,web_7b834eb290850b150d8c,mobifone_5g_faq,0.670938
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,tfidf,3,web_36aa797ea6489796b976,mobifone_5g_faq,0.469398
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,tfidf,4,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,0.44717
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,no_stopwords,tfidf,5,web_00836287d6ee815d027e,mobifone_5g_faq,0.417171
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,bm25,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,31.620974
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,bm25,2,web_7b834eb290850b150d8c,mobifone_5g_faq,30.969568
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,bm25,3,web_15efaa166448e4ce2a02,mobifone_5g_faq,27.378691
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,bm25,4,web_36aa797ea6489796b976,mobifone_5g_faq,23.773245
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,bm25,5,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,18.700529
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,tfidf,1,web_dee84d7bc9a61efe2681,mobifone_5g_faq,0.719695
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,tfidf,2,web_7b834eb290850b150d8c,mobifone_5g_faq,0.670938
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,tfidf,3,web_36aa797ea6489796b976,mobifone_5g_faq,0.469398
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,tfidf,4,web_14b5b6a6faff1f9e2c0c,mobifone_5g_faq,0.44717
+q01,Cách kiểm tra gói cước 5G MobiFone đang sử dụng?,stemmed,tfidf,5,web_00836287d6ee815d027e,mobifone_5g_faq,0.417171
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,bm25,1,web_643a7599dc7f92ee34d1,momo_help,14.346793
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,bm25,2,web_740cd08f60cd570304d7,momo_help,13.51658
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,bm25,3,web_3acc339aecd3f6932d61,momo_help,13.439174
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,bm25,4,web_5237eb23c95eef6e2f66,momo_help,12.52098
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,bm25,5,web_ae2699f078ffa39e9218,momo_help,11.93513
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,tfidf,1,web_643a7599dc7f92ee34d1,momo_help,0.265108
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,tfidf,2,web_3acc339aecd3f6932d61,momo_help,0.234851
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,tfidf,3,web_740cd08f60cd570304d7,momo_help,0.216297
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,tfidf,4,web_5237eb23c95eef6e2f66,momo_help,0.196597
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,baseline,tfidf,5,web_cf08db07ad19bd88b024,momo_help,0.192971
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,bm25,1,web_643a7599dc7f92ee34d1,momo_help,14.446203
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,bm25,2,web_3acc339aecd3f6932d61,momo_help,13.865628
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,bm25,3,web_740cd08f60cd570304d7,momo_help,13.714846
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,bm25,4,web_5237eb23c95eef6e2f66,momo_help,12.774863
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,bm25,5,web_88fc8c695da23138e71e,momo_help,11.946938
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,tfidf,1,web_643a7599dc7f92ee34d1,momo_help,0.281232
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,tfidf,2,web_3acc339aecd3f6932d61,momo_help,0.24718
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,tfidf,3,web_740cd08f60cd570304d7,momo_help,0.223057
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,tfidf,4,web_5237eb23c95eef6e2f66,momo_help,0.2028
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,lemmatized,tfidf,5,web_cf08db07ad19bd88b024,momo_help,0.200039
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,bm25,1,web_643a7599dc7f92ee34d1,momo_help,14.446203
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,bm25,2,web_3acc339aecd3f6932d61,momo_help,13.865628
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,bm25,3,web_740cd08f60cd570304d7,momo_help,13.714846
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,bm25,4,web_5237eb23c95eef6e2f66,momo_help,12.774863
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,bm25,5,web_88fc8c695da23138e71e,momo_help,11.946938
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,tfidf,1,web_643a7599dc7f92ee34d1,momo_help,0.281232
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,tfidf,2,web_3acc339aecd3f6932d61,momo_help,0.24718
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,tfidf,3,web_740cd08f60cd570304d7,momo_help,0.223057
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,tfidf,4,web_5237eb23c95eef6e2f66,momo_help,0.2028
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,no_stopwords,tfidf,5,web_cf08db07ad19bd88b024,momo_help,0.200039
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,bm25,1,web_643a7599dc7f92ee34d1,momo_help,14.446203
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,bm25,2,web_3acc339aecd3f6932d61,momo_help,13.865628
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,bm25,3,web_740cd08f60cd570304d7,momo_help,13.714846
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,bm25,4,web_5237eb23c95eef6e2f66,momo_help,12.774863
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,bm25,5,web_88fc8c695da23138e71e,momo_help,11.946938
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,tfidf,1,web_643a7599dc7f92ee34d1,momo_help,0.281232
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,tfidf,2,web_3acc339aecd3f6932d61,momo_help,0.24718
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,tfidf,3,web_740cd08f60cd570304d7,momo_help,0.223057
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,tfidf,4,web_5237eb23c95eef6e2f66,momo_help,0.2028
+q02,Làm sao liên hệ chăm sóc khách hàng MoMo?,stemmed,tfidf,5,web_cf08db07ad19bd88b024,momo_help,0.200039
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,bm25,1,web_a592c195028029eacf09,momo_help,10.422255
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,bm25,2,web_5e2ed394715833b08a58,fpt_telecom_support,9.661573
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,bm25,3,web_5eae456f7c6e09f83918,fpt_telecom_support,9.101631
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,bm25,4,web_f26f0a0e97001e39e8a1,momo_help,8.401937
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,bm25,5,web_b4da9351caf3f625d77b,momo_help,8.292182
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,tfidf,1,web_f26f0a0e97001e39e8a1,momo_help,0.277851
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,tfidf,2,web_5333fe03c99f41f5c58f,momo_help,0.277588
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,tfidf,3,web_720969c81122a6a0dcb1,momo_help,0.247437
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,tfidf,4,web_b4da9351caf3f625d77b,momo_help,0.242865
+q03,Cách thay đổi mật khẩu WiFi FPT?,baseline,tfidf,5,web_5e5b3c8bd86c3e3191ed,fpt_telecom_support,0.229784
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,bm25,1,web_a592c195028029eacf09,momo_help,10.429077
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,bm25,2,web_5e2ed394715833b08a58,fpt_telecom_support,9.375088
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,bm25,3,web_5eae456f7c6e09f83918,fpt_telecom_support,8.992903
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,bm25,4,web_b4da9351caf3f625d77b,momo_help,8.505324
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,bm25,5,web_f26f0a0e97001e39e8a1,momo_help,8.453435
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,tfidf,1,web_f26f0a0e97001e39e8a1,momo_help,0.289151
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,tfidf,2,web_5333fe03c99f41f5c58f,momo_help,0.286347
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,tfidf,3,web_b4da9351caf3f625d77b,momo_help,0.265749
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,tfidf,4,web_720969c81122a6a0dcb1,momo_help,0.256824
+q03,Cách thay đổi mật khẩu WiFi FPT?,lemmatized,tfidf,5,web_5e5b3c8bd86c3e3191ed,fpt_telecom_support,0.233403
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,bm25,1,web_a592c195028029eacf09,momo_help,10.429077
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,bm25,2,web_5e2ed394715833b08a58,fpt_telecom_support,9.375088
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,bm25,3,web_5eae456f7c6e09f83918,fpt_telecom_support,8.992903
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,bm25,4,web_b4da9351caf3f625d77b,momo_help,8.505324
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,bm25,5,web_f26f0a0e97001e39e8a1,momo_help,8.453435
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,tfidf,1,web_f26f0a0e97001e39e8a1,momo_help,0.289151
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,tfidf,2,web_5333fe03c99f41f5c58f,momo_help,0.286347
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,tfidf,3,web_b4da9351caf3f625d77b,momo_help,0.265749
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,tfidf,4,web_720969c81122a6a0dcb1,momo_help,0.256824
+q03,Cách thay đổi mật khẩu WiFi FPT?,no_stopwords,tfidf,5,web_5e5b3c8bd86c3e3191ed,fpt_telecom_support,0.233403
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,bm25,1,web_a592c195028029eacf09,momo_help,10.429077
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,bm25,2,web_5e2ed394715833b08a58,fpt_telecom_support,9.375088
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,bm25,3,web_5eae456f7c6e09f83918,fpt_telecom_support,8.992903
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,bm25,4,web_b4da9351caf3f625d77b,momo_help,8.505324
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,bm25,5,web_f26f0a0e97001e39e8a1,momo_help,8.453435
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,tfidf,1,web_f26f0a0e97001e39e8a1,momo_help,0.289151
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,tfidf,2,web_5333fe03c99f41f5c58f,momo_help,0.286347
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,tfidf,3,web_b4da9351caf3f625d77b,momo_help,0.265749
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,tfidf,4,web_720969c81122a6a0dcb1,momo_help,0.256824
+q03,Cách thay đổi mật khẩu WiFi FPT?,stemmed,tfidf,5,web_5e5b3c8bd86c3e3191ed,fpt_telecom_support,0.233403
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,bm25,1,web_1cb35b460775c6987e45,uel_admissions_faq,15.71027
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,bm25,2,web_3e63269ee4b903e26cdd,uel_admissions_faq,11.910155
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,bm25,3,web_b4f8f0f66370db397ad3,uel_admissions_faq,11.76309
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,bm25,4,web_ca2e927c431dd001e349,hcmus_admissions,10.983275
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,bm25,5,web_d9f766042761f9630ea2,hcmus_admissions,10.913285
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,tfidf,1,web_1cb35b460775c6987e45,uel_admissions_faq,0.38571
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,tfidf,2,web_b4f8f0f66370db397ad3,uel_admissions_faq,0.379728
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,tfidf,3,web_186f832fcd4465f2683a,hcmus_admissions,0.254513
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,tfidf,4,web_ca2e927c431dd001e349,hcmus_admissions,0.248457
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,baseline,tfidf,5,web_d9f766042761f9630ea2,hcmus_admissions,0.229794
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,bm25,1,web_1cb35b460775c6987e45,uel_admissions_faq,14.166963
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,bm25,2,web_b4f8f0f66370db397ad3,uel_admissions_faq,12.08295
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,bm25,3,web_3e63269ee4b903e26cdd,uel_admissions_faq,9.885807
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,bm25,4,web_ca2e927c431dd001e349,hcmus_admissions,8.775583
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,bm25,5,web_d9f766042761f9630ea2,hcmus_admissions,8.711383
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,tfidf,1,web_b4f8f0f66370db397ad3,uel_admissions_faq,0.416404
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,tfidf,2,web_1cb35b460775c6987e45,uel_admissions_faq,0.401513
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,tfidf,3,web_186f832fcd4465f2683a,hcmus_admissions,0.258405
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,tfidf,4,web_ca2e927c431dd001e349,hcmus_admissions,0.245287
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,lemmatized,tfidf,5,web_d9f766042761f9630ea2,hcmus_admissions,0.225661
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,bm25,1,web_1cb35b460775c6987e45,uel_admissions_faq,14.166963
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,bm25,2,web_b4f8f0f66370db397ad3,uel_admissions_faq,12.08295
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,bm25,3,web_3e63269ee4b903e26cdd,uel_admissions_faq,9.885807
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,bm25,4,web_ca2e927c431dd001e349,hcmus_admissions,8.775583
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,bm25,5,web_d9f766042761f9630ea2,hcmus_admissions,8.711383
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,tfidf,1,web_b4f8f0f66370db397ad3,uel_admissions_faq,0.416404
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,tfidf,2,web_1cb35b460775c6987e45,uel_admissions_faq,0.401513
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,tfidf,3,web_186f832fcd4465f2683a,hcmus_admissions,0.258405
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,tfidf,4,web_ca2e927c431dd001e349,hcmus_admissions,0.245287
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,no_stopwords,tfidf,5,web_d9f766042761f9630ea2,hcmus_admissions,0.225661
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,bm25,1,web_1cb35b460775c6987e45,uel_admissions_faq,14.166963
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,bm25,2,web_b4f8f0f66370db397ad3,uel_admissions_faq,12.08295
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,bm25,3,web_3e63269ee4b903e26cdd,uel_admissions_faq,9.885807
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,bm25,4,web_ca2e927c431dd001e349,hcmus_admissions,8.775583
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,bm25,5,web_d9f766042761f9630ea2,hcmus_admissions,8.711383
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,tfidf,1,web_b4f8f0f66370db397ad3,uel_admissions_faq,0.416404
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,tfidf,2,web_1cb35b460775c6987e45,uel_admissions_faq,0.401513
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,tfidf,3,web_186f832fcd4465f2683a,hcmus_admissions,0.258405
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,tfidf,4,web_ca2e927c431dd001e349,hcmus_admissions,0.245287
+q04,Điều kiện và phương thức xét tuyển đại học UEL?,stemmed,tfidf,5,web_d9f766042761f9630ea2,hcmus_admissions,0.225661
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,bm25,1,web_186f832fcd4465f2683a,hcmus_admissions,16.501805
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,bm25,2,web_96e84a6c6138bfb442db,hcmus_admissions,15.491267
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,bm25,3,web_33ea20ec8d12dd62fd99,hcmus_admissions,12.908031
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,bm25,4,web_3b3415d190c4f628e537,hcmus_admissions,12.106442
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,bm25,5,web_e63c1efb4e0555fb0223,hcmus_admissions,11.667317
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,tfidf,1,web_186f832fcd4465f2683a,hcmus_admissions,0.44143
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,tfidf,2,web_96e84a6c6138bfb442db,hcmus_admissions,0.400936
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,tfidf,3,web_3b3415d190c4f628e537,hcmus_admissions,0.315816
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,tfidf,4,web_065c202b7953fb6fc5e2,hcmus_admissions,0.259974
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,baseline,tfidf,5,web_33ea20ec8d12dd62fd99,hcmus_admissions,0.243795
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,bm25,1,web_186f832fcd4465f2683a,hcmus_admissions,16.167239
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,bm25,2,web_96e84a6c6138bfb442db,hcmus_admissions,15.56522
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,bm25,3,web_33ea20ec8d12dd62fd99,hcmus_admissions,12.723326
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,bm25,4,web_e63c1efb4e0555fb0223,hcmus_admissions,11.857336
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,bm25,5,web_3b3415d190c4f628e537,hcmus_admissions,11.746008
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,tfidf,1,web_186f832fcd4465f2683a,hcmus_admissions,0.450025
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,tfidf,2,web_96e84a6c6138bfb442db,hcmus_admissions,0.413121
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,tfidf,3,web_3b3415d190c4f628e537,hcmus_admissions,0.317026
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,tfidf,4,web_065c202b7953fb6fc5e2,hcmus_admissions,0.26706
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,lemmatized,tfidf,5,web_33ea20ec8d12dd62fd99,hcmus_admissions,0.246573
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,bm25,1,web_186f832fcd4465f2683a,hcmus_admissions,16.167239
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,bm25,2,web_96e84a6c6138bfb442db,hcmus_admissions,15.56522
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,bm25,3,web_33ea20ec8d12dd62fd99,hcmus_admissions,12.723326
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,bm25,4,web_e63c1efb4e0555fb0223,hcmus_admissions,11.857336
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,bm25,5,web_3b3415d190c4f628e537,hcmus_admissions,11.746008
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,tfidf,1,web_186f832fcd4465f2683a,hcmus_admissions,0.450025
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,tfidf,2,web_96e84a6c6138bfb442db,hcmus_admissions,0.413121
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,tfidf,3,web_3b3415d190c4f628e537,hcmus_admissions,0.317026
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,tfidf,4,web_065c202b7953fb6fc5e2,hcmus_admissions,0.26706
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,no_stopwords,tfidf,5,web_33ea20ec8d12dd62fd99,hcmus_admissions,0.246573
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,bm25,1,web_186f832fcd4465f2683a,hcmus_admissions,16.167239
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,bm25,2,web_96e84a6c6138bfb442db,hcmus_admissions,15.56522
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,bm25,3,web_33ea20ec8d12dd62fd99,hcmus_admissions,12.723326
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,bm25,4,web_e63c1efb4e0555fb0223,hcmus_admissions,11.857336
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,bm25,5,web_3b3415d190c4f628e537,hcmus_admissions,11.746008
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,tfidf,1,web_186f832fcd4465f2683a,hcmus_admissions,0.450025
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,tfidf,2,web_96e84a6c6138bfb442db,hcmus_admissions,0.413121
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,tfidf,3,web_3b3415d190c4f628e537,hcmus_admissions,0.317026
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,tfidf,4,web_065c202b7953fb6fc5e2,hcmus_admissions,0.26706
+q05,Thông tin tuyển sinh Đại học Khoa học Tự nhiên TP.HCM?,stemmed,tfidf,5,web_33ea20ec8d12dd62fd99,hcmus_admissions,0.246573
