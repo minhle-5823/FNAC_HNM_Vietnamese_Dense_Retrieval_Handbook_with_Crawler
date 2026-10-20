@@ -1,0 +1,35 @@
+{
+  "scope": "5-site crawled corpus ONLY",
+  "type": "stratified fixed evaluation subset",
+  "original_corpus_path": "data/preprocessing/24_auxiliary_corpus_RESEARCH_READY.csv",
+  "original_corpus_sha256": "614b2ed5bd6901826b35781f329c6976c78804cf872bd5a70bae14a4b30c077a",
+  "evaluation_doc_count": 50,
+  "evaluation_query_count": 40,
+  "judgments_required": 2000,
+  "doc_count_by_site": {
+    "fpt_telecom_support": 10,
+    "hcmus_admissions": 10,
+    "mobifone_5g_faq": 10,
+    "momo_help": 10,
+    "uel_admissions_faq": 10
+  },
+  "seed": 42,
+  "labels_status": "2000/2000 AI-assisted preliminary; NOT independent human judgments",
+  "validity": "When ALL pairs are judged 0/1, P@5 and Recall@5 apply ONLY to this fixed evaluation subset, NOT to the full original corpus.",
+  "annotation_source": "AI-assisted, label audit documents explain judgment; independent verification needed",
+  "query_generation": "40 natural paraphrases and confuser-sensitive questions, based on all 50 inspected source texts; some multiple relevant documents, no retrieval score used for labeling",
+  "positive_documents_per_query": "1 to 3, based on direct answer evidence; distribution in AI_LABEL_AUDIT_V2.csv",
+  "evaluation_limitation": "Fixed 50-doc stratified sample of five websites, not full 887. AI labels are exploratory; avoid benchmark claims.",
+  "label_file_sha256": "8825b596407ad3e95fceba688389ecac39d6153dd90c63cd72778c1e3398191b",
+  "status": "AI_ASSISTED_PRELIMINARY",
+  "annotation_provenance": "AI-assisted; NOT independently human-verified",
+  "scoring": "Exhaustive 0/1 judgments for all query-doc pairs inside the fixed subset; each query has >=1 relevant document.",
+  "scope_warning": "Scores VALID for fixed crawl evaluation subset ONLY; NOT for all 887 or 889 documents.",
+  "version": "v2_more_challenging_2026-10-20",
+  "previous_v1_metrics": "The original 10-query results are valid only for the earlier easy eval, not directly comparable as controlled experiment with this v2 set.",
+  "recommended_extra_metrics": [
+    "Hit@1",
+    "MRR@5",
+    "nDCG@5"
+  ]
+}

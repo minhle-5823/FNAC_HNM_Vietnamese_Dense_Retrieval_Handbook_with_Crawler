@@ -1,0 +1,5 @@
+﻿strategy,vocab_size,tfidf_rows,tfidf_cols,tfidf_nnz,token_count,token_reduction_pct,bm25_backend
+baseline,3193,889,3193,56484,93829,0.0,rank_bm25
+no_stopwords,3143,889,3143,47368,78046,16.82,rank_bm25
+stemmed,3143,889,3143,47368,78046,16.82,rank_bm25
+lemmatized,3143,889,3143,47368,78046,16.82,rank_bm25
