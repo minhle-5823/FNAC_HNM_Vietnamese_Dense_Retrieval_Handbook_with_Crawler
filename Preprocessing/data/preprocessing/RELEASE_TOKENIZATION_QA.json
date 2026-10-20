@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "lab_documents": 889,
+  "auxiliary_documents": 887,
+  "pending_review": 2,
+  "compound_tokens_kept": 32829,
+  "standalone_research_index": false,
+  "issues": []
+}

@@ -1,0 +1,12 @@
+# Install alongside crawler requirements for SEG301 Vietnamese preprocessing.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+joblib>=1.3
+nltk>=3.8
+rank-bm25>=0.2.2
+underthesea>=6.8
+
+# pandas.DataFrame.to_markdown / reports
+tabulate>=0.9
