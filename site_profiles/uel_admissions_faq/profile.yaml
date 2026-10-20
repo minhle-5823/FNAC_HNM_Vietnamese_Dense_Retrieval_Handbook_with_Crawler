@@ -1,0 +1,42 @@
+id: uel_admissions_faq
+name: UEL Admissions FAQ
+topic: Vietnamese Education
+domain_label: education
+enabled: true
+seed_urls:
+  - https://tuyensinh.uel.edu.vn/faq/
+allowed_domains: [tuyensinh.uel.edu.vn]
+user_agent: "VIRERetrievalCrawler/1.0 (academic research; respectful crawling)"
+crawl: {max_depth: 2, max_pages: 300, max_requests: 700, request_timeout: 20}
+rate_limit: {initial_delay: 2.0, min_delay: 2.0, max_delay: 120.0, max_retries: 5, retry_statuses: [429, 503], success_window: 8, recovery_factor: 0.85}
+policy:
+  robots: respect
+  robots_unavailable: block
+  stop_host_statuses: [401, 403]
+  challenge_patterns: ["just a moment","access denied","verify you are human","captcha","cf-chl-"]
+url:
+  allow_path_regex: ['^/faq/']
+  deny_path_regex: ['/(?:wp-admin|wp-login)(?:/|$)']
+  trailing_slash: preserve
+page_types:
+  - {name: faq, url_regex: '^/faq/'}
+extract:
+  parser: html.parser
+  title: {selectors: ['h1','h2','title']}
+  content:
+    container_selectors: ['main','.site-main','.content','body']
+    remove_selectors: ['script','style','noscript','nav','footer','header','form']
+  metadata: []
+links:
+  default_follow: true
+  default_selector: 'a[href]'
+preprocess:
+  min_words: 45
+  min_chars: 220
+  min_vietnamese_score: 0.35
+  min_relevance_score: 0.18
+  min_keyword_hits: 1
+  relevance_keywords: ["tuyển sinh", "sinh viên", "học phí", "học bổng", "xét tuyển", "đào tạo", "ngành", "chương trình", "hồ sơ", "điểm chuẩn", "đăng ký", "nhập học", "trường", "học tập"]
+  chunk_words: 180
+  chunk_overlap_words: 35
+  min_chunk_words: 35

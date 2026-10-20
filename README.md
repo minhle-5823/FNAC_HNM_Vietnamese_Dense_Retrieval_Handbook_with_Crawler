@@ -34,6 +34,7 @@ VIRE_WebCorpus_Crawler/
 │  ├─ url_tools.py
 │  ├─ preprocessor.py
 │  ├─ database.py
+│  ├─ database_merge.py   # merge all 8 tables from 5 sites
 │  ├─ validator.py
 │  └─ corpus_builder.py
 ├─ site_profiles/
@@ -101,15 +102,50 @@ Mỗi site: `data/<site>.db`
 - `url_state`: BFS/resume
 - `events`, `robots_checks`, `crawl_runs`
 
-Merge 5 site:
+### Gộp toàn bộ 5 database (MỚI)
+
+Lệnh `crawl-all` tự động gộp sau khi cả 5 site kết thúc thành công:
+
+```powershell
+python main.py crawl-all --group vire_web_corpus --max-pages 200 --reset
+```
+
+Output chung: `data/vire_web_corpus_merged.db`. File này chứa **toàn bộ 8 bảng**
+`url_state`, `raw_pages`, `processed_documents`, `passages`, `links`, `events`,
+`robots_checks`, `crawl_runs`, cùng với `merge_info`, `merge_sources` để tra cứu
+nguồn gốc và thống kê. Các file `data/<site>.db` riêng vẫn được giữ nguyên.
+
+Khi gộp, ID số nguyên được cấp lại để không trùng nhau. `origin_site` và
+`origin_id` được bổ sung cho từng bảng để truy vết ID gốc trong từng database.
+
+Nếu đã crawl riêng từng site và **chỉ muốn gộp lại, không crawl lại**, chạy:
+
+```powershell
+python main.py merge-dbs --group vire_web_corpus
+```
+
+**Lưu ý nguồn FPT:** FPT trước đây crawl `/tin-tuc/`, sau đó FAQ ở `/ho-tro/cau-hoi-thuong-gap` trả HTTP 500. Hiện dùng
+trang hướng dẫn Hi FPT `https://fpt.vn/hi-fpt/huong-dan-su-dung`. Các database cũ trong ZIP
+vẫn được giữ lại để không mất dữ liệu. Cần **crawl lại riêng FPT một lần**:
+
+```powershell
+python main.py crawl --site fpt_telecom_support --reset
+python main.py merge-dbs
+```
+
+Nếu chưa reset DB FPT, chương trình sẽ **báo lỗi seed không khớp** thay vì gộp
+nhầm nội dung cũ vào corpus Hi FPT mới. `--reset` của lệnh `crawl` chỉ
+reset database site đó, không xóa database 4 site còn lại.
+
+### Corpus passages riêng (giữ nguyên như trước)
 
 ```powershell
 python main.py build-corpus --group vire_web_corpus
 ```
 
-Output:
-- `data/vire_web_corpus_corpus.db`
-- `data/vire_web_corpus_passages.jsonl`
+Output: `data/vire_web_corpus_corpus.db`, `data/vire_web_corpus_passages.jsonl`.
+Lệnh `build-corpus` chỉ gộp passages cho bước retrieval; **khác** với
+`merge-dbs` gộp nguyên database.
 
 ## Lệnh
 
@@ -123,6 +159,7 @@ python main.py validate --site mobifone_5g_faq
 
 python main.py crawl-all --group vire_web_corpus --max-pages 200 --reset
 python main.py build-corpus --group vire_web_corpus
+python main.py merge-dbs --group vire_web_corpus
 ```
 
 ## Policy / server protection
@@ -142,15 +179,18 @@ Core:
 **Không có code bypass CAPTCHA, Cloudflare, login hoặc robots Disallow.**
 
 
-## Active 5-site group
+## Active 5-site group (V2)
 
 1. MobiFone 5G FAQ — Customer Support
 2. MoMo Help Center — Customer Support
-3. FPT Telecom Technical Support — Customer Support
+3. FPT Hi FPT Usage Guides — Customer Support
 4. UEL Admissions FAQ — Education
 5. HCMUS Admissions & FAQ — Education
 
-Core bản hiện tại:
+`vinaphone_5g_faq` và `vnuhcm_admissions` được giữ disabled để audit vì
+live test của nhóm bị robots preflight skip và thu được 0 page.
+
+Core V2 cũng:
 - follow robots.txt redirects an toàn trong allowed domains;
 - reject self-link trước khi đưa lại vào BFS;
 - hỗ trợ `required_any_keywords` / `reject_any_keywords` để quality gate chặt hơn.
