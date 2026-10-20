@@ -1,0 +1,111 @@
+id: momo_help
+name: MoMo Help Center
+topic: Vietnamese Customer Support
+domain_label: customer_support
+enabled: true
+
+seed_urls:
+  - https://www.momo.vn/hoi-dap
+
+allowed_domains:
+  - www.momo.vn
+  - momo.vn
+
+user_agent: "VIRERetrievalCrawler/1.0 (academic research; respectful crawling)"
+
+crawl:
+  max_depth: 2
+  max_pages: 400
+  max_requests: 900
+  request_timeout: 20
+
+rate_limit:
+  initial_delay: 2.0
+  min_delay: 2.0
+  max_delay: 120.0
+  max_retries: 5
+  retry_statuses: [429, 503]
+  success_window: 8
+  recovery_factor: 0.85
+
+policy:
+  robots: respect
+  robots_unavailable: block
+  stop_host_statuses: [401, 403]
+  challenge_patterns:
+    - "just a moment"
+    - "access denied"
+    - "verify you are human"
+    - "captcha"
+    - "cf-chl-"
+
+url:
+  trailing_slash: preserve
+  allow_path_regex:
+    - '^/hoi-dap(?:/|$)'
+  deny_path_regex:
+    - '^/hoi-dap/(?:dang-nhap|login)(?:/|$)'
+  strip_query_prefixes: [utm_]
+  strip_query_keys: [ref]
+  sort_query: true
+
+page_types:
+  - name: help_index
+    url_regex: '^/hoi-dap/?$'
+  - name: faq
+    url_regex: '^/hoi-dap/.+'
+
+extract:
+  parser: html.parser
+  title:
+    selectors: ['h1', 'title']
+  content:
+    container_selectors: ['main', 'article', '.content', 'body']
+    remove_selectors: ['script', 'style', 'noscript', 'nav', 'footer', 'header', 'form']
+  metadata: []
+
+links:
+  default_follow: false
+  rules:
+    - source_path_regex: '^/hoi-dap(?:/|$)'
+      selector: 'a[href]'
+      target_path_regex: '^/hoi-dap(?:/|$)'
+
+preprocess:
+  min_words: 45
+  min_chars: 220
+  min_vietnamese_score: 0.35
+  min_relevance_score: 0.20
+  min_keyword_hits: 2
+  relevance_keywords:
+    - tài khoản
+    - giao dịch
+    - thanh toán
+    - chuyển tiền
+    - nạp tiền
+    - rút tiền
+    - ngân hàng
+    - liên kết
+    - mật khẩu
+    - OTP
+    - hoàn tiền
+    - phí
+    - bảo mật
+    - hỗ trợ
+    - khóa tài khoản
+  required_any_keywords:
+    - tài khoản
+    - giao dịch
+    - thanh toán
+    - chuyển tiền
+    - nạp tiền
+    - rút tiền
+    - ngân hàng
+    - mật khẩu
+    - OTP
+    - phí
+    - bảo mật
+    - hỗ trợ
+  chunk_words: 180
+  chunk_overlap_words: 35
+  min_chunk_words: 35

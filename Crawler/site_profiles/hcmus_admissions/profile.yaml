@@ -1,0 +1,111 @@
+id: hcmus_admissions
+name: HCMUS Admissions & FAQ
+topic: Vietnamese Education
+domain_label: education
+enabled: true
+
+seed_urls:
+  - https://tuyensinh.hcmus.edu.vn/
+  - https://tuyensinh.hcmus.edu.vn/cau-hoi-thuong-gap/
+
+allowed_domains:
+  - tuyensinh.hcmus.edu.vn
+
+user_agent: "VIRERetrievalCrawler/1.0 (academic research; respectful crawling)"
+
+crawl:
+  max_depth: 2
+  max_pages: 400
+  max_requests: 900
+  request_timeout: 20
+
+rate_limit:
+  initial_delay: 2.0
+  min_delay: 2.0
+  max_delay: 120.0
+  max_retries: 5
+  retry_statuses: [429, 503]
+  success_window: 8
+  recovery_factor: 0.85
+
+policy:
+  robots: respect
+  robots_unavailable: block
+  stop_host_statuses: [401, 403]
+  challenge_patterns:
+    - "just a moment"
+    - "access denied"
+    - "verify you are human"
+    - "captcha"
+    - "cf-chl-"
+
+url:
+  trailing_slash: preserve
+  allow_path_regex:
+    - '^/$'
+    - '^/cau-hoi-thuong-gap/?$'
+    - '^/(?:phuong-thuc-tuyen-sinh|hoc-phi|diem-chuan|chi-tieu|nganh-dao-tao|nganh-moi|thong-tin-nhap-hoc|hoc-bong)(?:/|$)'
+    - '^/202[4-6]-.*'
+  deny_path_regex:
+    - '^/(?:wp-admin|wp-login|feed)(?:/|$)'
+  strip_query_prefixes: [utm_]
+  strip_query_keys: [ref]
+  sort_query: true
+
+page_types:
+  - name: root
+    url_regex: '^/$'
+  - name: faq
+    url_regex: '^/cau-hoi-thuong-gap/?$'
+  - name: education_article
+    url_regex: '^/.+'
+
+extract:
+  parser: html.parser
+  title:
+    selectors: ['h1', 'title']
+  content:
+    container_selectors: ['main', 'article', '.entry-content', '.site-main', 'body']
+    remove_selectors: ['script', 'style', 'noscript', 'nav', 'footer', 'header', 'form']
+  metadata: []
+
+links:
+  default_follow: true
+  default_selector: 'a[href]'
+
+preprocess:
+  min_words: 55
+  min_chars: 280
+  min_vietnamese_score: 0.35
+  min_relevance_score: 0.20
+  min_keyword_hits: 2
+  relevance_keywords:
+    - tuyển sinh
+    - xét tuyển
+    - thí sinh
+    - sinh viên
+    - học phí
+    - học bổng
+    - ngành
+    - chương trình
+    - hồ sơ
+    - điểm chuẩn
+    - nhập học
+    - chỉ tiêu
+    - phương thức
+    - ký túc xá
+  required_any_keywords:
+    - tuyển sinh
+    - xét tuyển
+    - thí sinh
+    - sinh viên
+    - học phí
+    - học bổng
+    - ngành
+    - chương trình
+    - hồ sơ
+    - điểm chuẩn
+    - nhập học
+  chunk_words: 200
+  chunk_overlap_words: 40
+  min_chunk_words: 40

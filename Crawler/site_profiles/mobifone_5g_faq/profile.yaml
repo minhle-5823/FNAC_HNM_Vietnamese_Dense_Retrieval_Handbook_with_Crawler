@@ -1,0 +1,43 @@
+id: mobifone_5g_faq
+name: MobiFone 5G FAQ
+topic: Vietnamese Customer Support
+domain_label: customer_support
+enabled: true
+seed_urls:
+  - https://5g.mobifone.vn/mobifone5g/danh-muc-chinh/cau-hoi-thuong-gap
+allowed_domains: [5g.mobifone.vn]
+user_agent: "VIRERetrievalCrawler/1.0 (academic research; respectful crawling)"
+crawl: {max_depth: 2, max_pages: 300, max_requests: 700, request_timeout: 20}
+rate_limit: {initial_delay: 2.0, min_delay: 2.0, max_delay: 120.0, max_retries: 5, retry_statuses: [429, 503], success_window: 8, recovery_factor: 0.85}
+policy:
+  robots: respect
+  robots_unavailable: block
+  stop_host_statuses: [401, 403]
+  challenge_patterns: ["just a moment","access denied","verify you are human","captcha","cf-chl-"]
+url:
+  allow_path_regex: ['^/mobifone5g/']
+  deny_path_regex: ['/(?:dang-nhap|login|search)(?:/|$)']
+  trailing_slash: preserve
+page_types:
+  - {name: faq, url_regex: 'cau-hoi-thuong-gap'}
+  - {name: support, url_regex: '^/mobifone5g/'}
+extract:
+  parser: html.parser
+  title: {selectors: ['h1','h2','title']}
+  content:
+    container_selectors: ['main','.main-content','.content','body']
+    remove_selectors: ['script','style','noscript','nav','footer','header']
+  metadata: []
+links:
+  default_follow: true
+  default_selector: 'a[href]'
+preprocess:
+  min_words: 45
+  min_chars: 220
+  min_vietnamese_score: 0.30
+  min_relevance_score: 0.18
+  min_keyword_hits: 1
+  relevance_keywords: ["khách hàng", "hỗ trợ", "dịch vụ", "hướng dẫn", "đăng ký", "gói cước", "cước", "internet", "mạng", "sim", "thuê bao", "thanh toán", "lỗi", "kết nối", "tài khoản"]
+  chunk_words: 180
+  chunk_overlap_words: 35
+  min_chunk_words: 35
